@@ -16,7 +16,7 @@ class Song
     @@all
   end
   
-  def print_all_song_names
+  def print_all
     @@all
   end
 end
