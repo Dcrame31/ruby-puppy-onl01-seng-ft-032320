@@ -19,10 +19,8 @@ class Dog
   
   def self.print_all
     @@all.collect do |dog|
-      new_arr = []
-        new_arr << dog.name
-        new_arr
-    end.flatten
+      dog.name
+    end
   end
 end
 
