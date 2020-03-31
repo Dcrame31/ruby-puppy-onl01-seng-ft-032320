@@ -1,6 +1,6 @@
 # Add your code here
 
-class Song
+class Dog
  
   @@all = []
 
@@ -22,4 +22,4 @@ class Song
 end
 
 
-Song.print_all_song_names
+Dog.print_all
