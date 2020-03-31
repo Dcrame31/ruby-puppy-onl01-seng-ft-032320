@@ -1,23 +1,25 @@
 # Add your code here
 
-class Dog
+class Song
+ 
   @@all = []
-  @@name = []
-  
+
   attr_accessor :name
-  
+ 
   def initialize(name)
     @name = name
     @@all << self
-    @@name << name
+    
   end
-  
+ 
   def self.all
     @@all
   end
   
-  def self.print_all
-    @@name
+  def print_all_song_names
+    @@all
   end
-  
 end
+
+
+Song.print_all_song_names
